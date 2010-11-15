@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:i="http://www.springframework.org/schema/integration"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/integration
+			http://www.springframework.org/schema/integration/spring-integration.xsd
+			">
+
+    <!--
+    This is the main application context. It should import all the bits and pieces that make up the app (so we can
+    easily turn modules on and off from here
+    -->
+
+    <!-- TODO import the file pick-up logic -->
+    <i:publish-subscribe-channel id="bites" datatype="java.lang.String"/>
+
+    <!-- TODO import the mail-sending, twitter-tweeting, ... contexts that hook onto 'bites' -->
+
+    <!-- TODO import the monitoring logic -->
+
+    <!-- TODO import the bidding logic -->
+
+</beans>
