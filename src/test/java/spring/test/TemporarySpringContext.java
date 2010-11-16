@@ -6,6 +6,8 @@ import org.junit.runners.model.Statement;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
+ * A MethodRule that loads a Spring context and caches it to save on test runtime.
+ *
  * @author Iwein Fuld
  */
 public class TemporarySpringContext extends TestWatchman {
