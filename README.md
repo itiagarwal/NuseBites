@@ -9,9 +9,15 @@ back-end application running in a day or two.
 Getting started as a developer
 -------------------------------
 *This section will move down later when it makes sense to get started as a user :)*
+Clone this project, cd into the directory and run
+
+    mvn clean install
+
+optionally import the project into your favorite IDE and start hacking.
 
 Getting started (as a user)
 ----------------------------
+DOESN'T WORK YET.
 Download the zip file, unpack and run nusebites.sh or nusebites.bat.
 
 How does it work?
